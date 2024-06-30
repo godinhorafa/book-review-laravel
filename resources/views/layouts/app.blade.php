@@ -63,7 +63,7 @@
   {{-- blade-formatter-enable --}}
 </head>
 
-<body class="container mx-auto mt-10 mb-10 max-w-3xl bg-gradient-to-r from-indigo-500 via-slate-500 to-purple-700">
+<body class="container mx-auto mt-10 mb-10 max-w-3xl">
   @yield('content')
 </body>
 
