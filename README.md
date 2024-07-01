@@ -1,3 +1,47 @@
+# Book Review Laravel App
+
+This project is a book review application developed using PHP with the Laravel framework and containerized using Docker. The goal is to provide a platform where users can review books, see the most popular and highest-rated books, and interact with the features of a book review system.
+
+## Documentation
+
+**Project Setup and Creation**:
+
+-   Initial setup of the project using Laravel and Docker.
+
+**Model Relationships**:
+
+-   Definition of one-to-many relationships between models.
+-   Querying and associating related models.
+-   Utilizing local scopes for specific queries.
+
+**Controllers and Resource Controllers**:
+
+-   Setting up controllers to manage CRUD operations.
+
+**Test Data Generation**:
+
+-   Use of Factory and Seeder to generate mock data.
+
+**Caching and Invalidating Cache**:
+
+-   Implementing caching to improve query performance.
+-   Managing cache invalidation when data is updated.
+
+**Rate Limiting**:
+
+-   Applying rate limits for adding reviews.
+
+## Features
+
+-   Listing Popular and Highest Rated Books: Displaying the highest-rated and popular books.
+-   Recent Reviews: Fetching books with recent reviews.
+-   Filter Books by Title: Implementing a form and logic to filter books by title.
+-   Displaying Popular and Highest Rated Books: - Developing views and logic for popular and highest-rated books.
+-   Single Book Page: Creating a dedicated page for each book.
+-   Review Count and Average Rating: Displaying review count and average rating on all pages.
+-   Blade Components: Creating a star rating component using Blade.
+-   Adding Reviews: Implementing a scoped resource controller to add reviews.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -11,13 +55,13 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   [Simple, fast routing engine](https://laravel.com/docs/routing).
+-   [Powerful dependency injection container](https://laravel.com/docs/container).
+-   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+-   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+-   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+-   [Robust background job processing](https://laravel.com/docs/queues).
+-   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -35,19 +79,19 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+-   **[Vehikl](https://vehikl.com/)**
+-   **[Tighten Co.](https://tighten.co)**
+-   **[WebReinvent](https://webreinvent.com/)**
+-   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+-   **[64 Robots](https://64robots.com)**
+-   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+-   **[Cyber-Duck](https://cyber-duck.co.uk)**
+-   **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+-   **[Jump24](https://jump24.co.uk)**
+-   **[Redberry](https://redberry.international/laravel/)**
+-   **[Active Logic](https://activelogic.com)**
+-   **[byte5](https://byte5.de)**
+-   **[OP.GG](https://op.gg)**
 
 ## Contributing
 
