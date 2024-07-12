@@ -29,7 +29,7 @@ class BookController extends Controller
 
     //    $books = $books->get();
 
-      $books =  Cache::remember(('books', 3600, fn() => $books->get());
+      $books =  Cache::remember('books', 3600, fn() => $books->get());
 
         return view('books.index', ['books' => $books]);
     }
