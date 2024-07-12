@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Book;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 class BookController extends Controller
 {
@@ -26,7 +27,9 @@ class BookController extends Controller
         default => $books->latest()
        };
 
-       $books = $books->get();
+    //    $books = $books->get();
+
+      $books =  Cache::remember(('books', 3600, fn() => $books->get());
 
         return view('books.index', ['books' => $books]);
     }

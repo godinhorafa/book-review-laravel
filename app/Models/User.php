@@ -11,6 +11,10 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
+    /**
+     *
+     * @var array<int, string>
+     */
     protected $fillable = [
         'name',
         'email',
