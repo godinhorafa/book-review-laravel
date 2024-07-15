@@ -8,29 +8,6 @@ This project is a book review application developed using PHP with the Laravel f
 
 -   Initial setup of the project using Laravel and Docker.
 
-**Model Relationships**:
-
--   Definition of one-to-many relationships between models.
--   Querying and associating related models.
--   Utilizing local scopes for specific queries.
-
-**Controllers and Resource Controllers**:
-
--   Setting up controllers to manage CRUD operations.
-
-**Test Data Generation**:
-
--   Use of Factory and Seeder to generate mock data.
-
-**Caching and Invalidating Cache**:
-
--   Implementing caching to improve query performance.
--   Managing cache invalidation when data is updated.
-
-**Rate Limiting**:
-
--   Applying rate limits for adding reviews.
-
 ## Features
 
 -   Listing Popular and Highest Rated Books: Displaying the highest-rated and popular books.
@@ -61,6 +38,28 @@ filter/search bar
 /?title=aliquam&filter=
 ![image](https://github.com/user-attachments/assets/8f65e8f4-a2ee-4362-bc12-6558179d782e)
 
+**Model Relationships**:
+
+-   Definition of one-to-many relationships between models.
+-   Querying and associating related models.
+-   Utilizing local scopes for specific queries.
+
+**Controllers and Resource Controllers**:
+
+-   Setting up controllers to manage CRUD operations.
+
+**Test Data Generation**:
+
+-   Use of Factory and Seeder to generate mock data.
+
+**Caching and Invalidating Cache**:
+
+-   Implementing caching to improve query performance.
+-   Managing cache invalidation when data is updated.
+
+**Rate Limiting**:
+
+-   Applying rate limits for adding reviews.
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
