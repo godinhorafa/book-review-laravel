@@ -42,6 +42,27 @@ This project is a book review application developed using PHP with the Laravel f
 -   Blade Components: Creating a star rating component using Blade.
 -   Adding Reviews: Implementing a scoped resource controller to add reviews.
 
+
+/books
+
+![image](https://github.com/user-attachments/assets/a8a740be-508e-4c1e-b581-45af4f50b250)
+
+/books/id
+![image](https://github.com/user-attachments/assets/76b0ddba-6c65-476b-b41d-fb835be3ceee)
+
+/books/id/reviews/create
+![image](https://github.com/user-attachments/assets/947ae22a-8a55-4c55-ad32-ff1161b5c86c)
+
+review added to book of id 16 with current date (july 15, 2024)
+![image](https://github.com/user-attachments/assets/2fefb3fd-292c-4d36-bbbb-f9762afbe062)
+
+filter/search bar
+
+/?title=aliquam&filter=
+![image](https://github.com/user-attachments/assets/8f65e8f4-a2ee-4362-bc12-6558179d782e)
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
